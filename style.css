@@ -1,0 +1,50 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display:grid;
+    grid-template-rows: 1fr 1fr 8fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+
+
+.virgin {
+    grid-column: 2/5;
+    color: red;
+    font-weight: bold;
+    text-align: center ;
+}
+
+.menu {
+    color:red;
+    font-weight: bold;
+}
+
+
+.main-content {
+    background-color: red;
+    grid-column: 1/5;
+    color: white;
+}
+
+.health {
+    font-weight: bold;
+    font-size:3rem;
+    text-align: center;
+    font-family: utopia-std, serif;
+}
+
+.tips {
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    font-family: Barlow, sans-serif;
+}
