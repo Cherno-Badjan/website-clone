@@ -31,6 +31,10 @@ body, html {
     background-color: red;
     grid-column: 1/5;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .health {
@@ -41,10 +45,16 @@ body, html {
 }
 
 .tips {
+    font-family: Barlow, sans-serif;
     text-align: center;
 }
 
 .date {
     text-align: center;
     font-family: Barlow, sans-serif;
+}
+
+.image {
+    display: block;
+    width:fit-content;
 }
